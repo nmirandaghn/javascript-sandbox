@@ -23,6 +23,9 @@ x = s.indexOf("World");
 x = s.charAt(7);
 x = s.split(", ");
 x = s.replace("World", "JavaScript");
-x = s.slice(0, 5);
+x = s.slice(0, 5); // "Hello"
+x = s.includes("Hello");
+x = s.startsWith("Hello");
+x = s.endsWith("!");
 
 console.log(x);
